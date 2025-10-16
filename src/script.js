@@ -9,7 +9,7 @@ function validateForm() {
   error.classList.add("hidden");
   success.classList.add("hidden");
 
-  // Basic validation checks
+  // FORM validation checks
   if (name === "" || email === "" || message === "") {
     error.textContent = "Please fill in all fields.";
     error.classList.remove("hidden");
